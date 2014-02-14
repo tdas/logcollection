@@ -1,0 +1,2 @@
+logcollection
+=============
