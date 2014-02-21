@@ -1,0 +1,4 @@
+#!/bin/bash
+export MESOS_NATIVE_LIBRARY=/usr/local/lib/libmesos.so
+export SPARK_MEM=2000m
+java -Xmx2000m -jar $(dirname $0)/sbt-launch-*.jar "$@"
